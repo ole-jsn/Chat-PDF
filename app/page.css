@@ -1,0 +1,81 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f0f0f, #2c2c2c);
+  color: #f0f0f0;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00bcd4;
+}
+
+.container__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.error-message {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.container__button {
+  margin-top: 10px;
+  padding: 12px 25px;
+  border-radius: 25px;
+  border: none;
+  background-color: #00bcd4;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.container__button:hover {
+  background-color: #008c9e;
+  transform: scale(1.05);
+}
+
+.api-key-input {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease;
+}
+
+.api-key-input:focus {
+  box-shadow: 0 4px 8px rgba(0, 188, 212, 0.5);
+}
+
+.continue-button {
+  margin-top: 20px;
+  background-color: #4caf50;
+}
+
+.continue-button:hover {
+  background-color: #388e3c;
+}
